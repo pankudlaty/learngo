@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 func main() {
-	fmt.Println("Hello Gopher")
-	fmt.Println("Hei!")
+	fmt.Println("Heil Hitler!")
+	fmt.Println(runtime.NumCPU())
 }
